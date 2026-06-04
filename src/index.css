@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cairo:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-cairo: "Cairo", sans-serif;
+  --font-amiri: "Amiri", serif;
+  
+  --color-gold-50: #fefbeb;
+  --color-gold-100: #fef3c7;
+  --color-gold-200: #fde68a;
+  --color-gold-300: #fcd34d;
+  --color-gold-400: #fbbf24;
+  --color-gold-500: #f59e0b;
+  --color-gold-600: #d97706;
+  --color-gold-700: #b45309;
+  --color-gold-800: #92400e;
+  --color-gold-900: #78350f;
+  
+  --color-emerald-950: #022c22;
+}
+
+/* Custom scrollbar adjustments for premium reading experience */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #064e3b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #047857;
+}
+
+body {
+  font-family: var(--font-cairo), sans-serif;
+  background-color: #fafaf9; /* soft warm off-white for reading comfort */
+  color: #1c1917;
+}
+
+/* Quran text rendering adjustments */
+.quran-text {
+  font-family: var(--font-amiri), serif;
+  line-height: 2.5;
+  text-align: right;
+  word-spacing: 4px;
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Remix: Quran Companion",
+  "description": "Read, listen, and study the Holy Quran with beautiful recitations, translations, and daily spiritual reminders.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
